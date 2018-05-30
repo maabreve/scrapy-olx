@@ -18,7 +18,7 @@ NEWSPIDER_MODULE = 'olx.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'olx (+http://www.yourdomain.com)'
 
-FEED_URI = 'data/%(name)s/%(time)s.json'
+FEED_URI = 'data/%(name)s/%(time)ss.json'
 FEED_FORMAT = 'json'
 
 # Obey robots.txt rules
